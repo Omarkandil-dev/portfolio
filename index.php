@@ -1,3 +1,7 @@
+
+<?php include "connection.php"?>
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -47,7 +51,7 @@
 	  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
 			<ul class="navbar-nav mx-auto">
 			  <li class="nav-item active">
-				<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			  </li>
 			   <li class="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
 			   <li class="nav-item"><a class="nav-link smoth-scroll" href="#skillbar">Expertise</a></li>
@@ -362,7 +366,7 @@
 							<p class="text-md mt-3">They do this through collaboration between our strategists, designers and technologists.They craft beautiful and unique digital experiences.Unlimited power and customization possibilities.Pixel perfect design & clear code delivered to you.</p>
 
 							<div class="media mt-5 align-items-center">
-								<img src="images/about/2.jpg" alt="" class="img-fluid  rounded-circle align-self-center mr-4">
+								<img src="./" alt="" class="img-fluid  rounded-circle align-self-center mr-4">
 								<div class="media-body">
 									<h3 class="mb-0">Fatine Chebab </h3>
 									<span class="text-muted">trainer</span>
@@ -392,6 +396,15 @@
 </section>
 <!-- Tetsimonial End -->
 
+
+
+
+
+
+
+
+
+
 <!-- Contact start -->
 <section class="section" id="contact" data-aos="fade-up">
 	<div class="container">
@@ -406,31 +419,30 @@
 
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
-					<form class="contact__form form-row contact-form" method="post" action="mail.php" id="contactForm">
+					<form class="contact__form form-row contact-form" method="post" action="index.php" id="contactForm">
 					 <div class="row">
-                        <div class="col-12">
-                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                Your message was sent successfully.
-                            </div>
-                        </div>
+                      
                     </div>
 					<div class="form-group col-lg-6 mb-5">
-						<input type="text" id="name" name="name" class="form-control bg-transparent" placeholder="Your Name">
+						<input type="text" id="name" name="Nom" class="form-control bg-transparent" placeholder="Your Name">
 					</div>
 					<div class="form-group col-lg-6 mb-5">
 						<input type="text" name="email" id="email" class="form-control bg-transparent" placeholder="Your Email">
 					</div>
 					<div class="form-group col-lg-12 mb-5">
-						<input type="text" name="subject" id="subject" class="form-control bg-transparent" placeholder="Your Subject">
+						<input type="text" name="sujet" id="subject" class="form-control bg-transparent" placeholder="Your Subject">
 					</div>
 					
 					<div class="form-group col-lg-12 mb-5">
-						<textarea id="message" name="message" cols="30" rows="6" class="form-control bg-transparent" placeholder="Your Message"></textarea>
+						<textarea id="message" name="messages" cols="30" rows="6" class="form-control bg-transparent" placeholder="Your Message"></textarea>
 						
 						<div class="text-center">
-							 <input class="btn btn-main text-white mt-5" id="submit" name="submit" type="submit" class="btn btn-hero" value="Send Message">
+							 <input class="btn btn-main text-white mt-5" id="submit" name="submit" type="submit"  value="Send Message">
 						</div>
 					</div>
+           
+                
+                 
 				</form>
 			</div>
 		</div>
