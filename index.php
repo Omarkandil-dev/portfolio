@@ -1,5 +1,4 @@
 
-<?php include "connection.php"?>
 
 
 <!DOCTYPE html>
@@ -80,7 +79,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-5 col-sm-12 col-12 col-md-5">
 				<div class="slider-img position-relative">
-					<img src="./download (1).jfif" alt="" class="img-fluid w-100">
+					<img src="./images/./avatar.jpg" alt="" class="img-fluid w-100">
 				</div>
 			</div>
 
@@ -223,7 +222,7 @@
 			<div class="col-lg-4 col-md-6">
 				<div class="card p-5 rounded-0">
 					<i class="ti-layers text-lg-2 text-muted"></i>
-					<h3 class="my-4 text-capitalize">Graphics  Design</h3>
+					<h3 class="my-4 text-capitalize">Graphics <br>  Design</h3>
 					<p>It can change the way we feel about a company and the products & services they offer.</p>
 				</div>
 			</div>
