@@ -8,8 +8,10 @@
   <meta name="description" content="portfolio,creative,business,company,agency,multipurpose,modern,bootstrap4">
   
   <meta name="author" content="themeturn.com">
+    <link rel="icon" href="./images/./icon.png" type="image/x-icon">
 
-  <title>Ratsaan| Creative portfolio template</title>
+
+  <title>Omar| portfolio</title>
 
   <!-- Mobile Specific Meta-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
